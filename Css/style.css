@@ -33,7 +33,7 @@ body {
 .row-5, .row-4, .row-3, .row-2, .row{
     margin-left: 20px;
     margin-right: 20px;
-    width: 100px;
+    width: 105px;
     color: #ffffff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgb(20 44 167 / 70%);
@@ -42,7 +42,7 @@ body {
     align-items: center;
     font-weight: bold;
     transition: 0.3s;
-    height: 100px;
+    height: 105px;
     
 }
 
