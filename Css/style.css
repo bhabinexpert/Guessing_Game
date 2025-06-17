@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh;            /* full screen */
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.thulo-Container {
+  width: 800px;
+  background: #baecfc79;
+  padding: 20px;
+  height: 600px;
+}
