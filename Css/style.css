@@ -5,7 +5,7 @@ body {
   height: 100vh;            /* full screen */
   width: 100vw;
   margin: 0px;
-  background-color: antiquewhite;
+  background-color: #9a9794;
   overflow: hidden;
 }
 
@@ -127,3 +127,11 @@ body {
   transition-duration: 1.5s;
 }
 
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
