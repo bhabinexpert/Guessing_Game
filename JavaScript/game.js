@@ -14,7 +14,8 @@ const imgList = [
     img0, img1, img2, img3, img4, img5, img6, img7, img8, img9
 ]
 
-const shuffledImg = imgList.sort(() => 0.5 - Math.random());
+const shuffledImg = imgList.sort(() => 0.5 - Math.random()); // shuffle the image randomly
+console.log(shuffledImg)
 
 const cards = document.querySelectorAll('.row img, .row-2 img, .row-3 img, .row-4 img, .row-5 img');
 
@@ -57,6 +58,22 @@ cards.forEach((card, index) =>{
 
        
     });
+});
+
+document.getElementById("refreshBtn").addEventListener("click", () => {
+  // Reshuffle images
+  const newShuffledImg = imgList.sort(() => 0.5 - Math.random());
+
+  // Reset each card
+  cards.forEach((card, index) => {
+    card.src = "/images/question.png";          // Reset image
+    card.dataset.flipped = "false";             // Mark as not flipped
+    card.dataset.img = newShuffledImg[index];   // Assign new random image
+  });
+
+  // Clear flipped cards and unlock board
+  flippedCards = [];
+  lockBoard = false;
 });
 
 
