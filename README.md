@@ -77,28 +77,6 @@ Restart the Game:
 
 Click the Refresh button (bottom-right) to shuffle the cards, reset the timer, and start over.
 
-
-
-
-📂 Project Structure
-Guessing_Game/
-├── images/
-│   ├── question.png       # Default card back
-│   ├── vscode.png         # Icon for VS Code
-│   ├── Css.png            # Icon for CSS
-│   ├── GitHub-Logo.png    # Icon for GitHub
-│   ├── html.png           # Icon for HTML
-│   ├── java.png           # Icon for Java
-│   ├── mongoDb.png        # Icon for MongoDB
-│   ├── python.png         # Icon for Python
-│   ├── react.png          # Icon for React
-│   ├── nodeJs.png         # Icon for Node.js
-│   ├── js.png             # Icon for JavaScript
-├── index.html             # Game structure and layout
-├── style.css              # Styling for cards, layout, and animations
-├── game.js                # Game logic, timer, and card interactions
-
-
 🧑‍💻 Code Highlights
 The game leverages JavaScript for dynamic behavior, CSS for styling, and HTML for structure. Here’s a key snippet from game.js showing the card-flipping and matching logic:
 cards.forEach((card) => {
