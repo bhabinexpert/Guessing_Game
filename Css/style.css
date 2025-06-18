@@ -135,3 +135,39 @@ body {
   margin-left: 40px;
   font-family: sans-serif;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .thulo-Container {
+    width: 90%; /* Make container responsive */
+    height: auto; /* Allow height to adjust */
+  }
+  .first-row, .second-row, .third-row, .fourth-row, .fifth-row {
+    flex-direction: row; /* Keep rows in a row */
+    justify-content: center; /* Center align */
+    margin: 20px 0; /* Adjust margin */
+  }
+  .row-5, .row-4, .row-3, .row-2, .row {
+    width: 80px; /* Adjust card width */
+    height: 80px; /* Adjust card height */
+  }
+  .button-box {
+    right: 20px; /* Adjust button position */
+  }
+  .timer {
+    font-size: 20px; /* Adjust timer font size */
+    margin-left: 20px; /* Adjust margin */
+  }
+}
+@media (max-width: 480px) {
+  .row-5, .row-4, .row-3, .row-2, .row {
+    width: 60px; /* Further adjust card width */
+    height: 60px; /* Further adjust card height */
+  }
+  .button {
+    width: 90px; /* Adjust button width */
+  }
+  .timer {
+    font-size: 18px; /* Further adjust timer font size */
+  }
+}
